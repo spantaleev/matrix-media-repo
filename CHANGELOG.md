@@ -10,6 +10,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Added
 
 * Dendrite homeservers can now have their media imported safely, and `adminApiKind` may be set to `dendrite`.
+* Add *unstable* support for [MSC3916: Authentication for media](https://github.com/matrix-org/matrix-spec-proposals/pull/3916).
+  * **Note**: MMR will *not* attempt to use authentication to download media over federation in this version. 
+    * ***Subject to change during development.*** 
 
 ### Changed
 
